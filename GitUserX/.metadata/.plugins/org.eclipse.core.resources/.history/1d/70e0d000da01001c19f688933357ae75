@@ -36,7 +36,6 @@ public class HomepageTest extends Base
 		lg.info("Driver is intialize" );
 		driver.get(prop.getProperty("url"));
 		lg.info("Navigate to home page");
-		lg.info("hi");
 	}
 
 	
@@ -50,7 +49,6 @@ public class HomepageTest extends Base
 	    lg.info("comparing the title");
 	    Assert.assertEquals(str,"FEATURED COURSES");
 	    lg.info("comparing the title pass");
-	    lg.info("bye");
 	}
 	
 	
